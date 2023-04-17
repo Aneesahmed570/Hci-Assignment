@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lunch Ordering System</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <h1>Lunch Ordering System</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Welcome to the Lunch Ordering System</h2>
+        <p>Please select your lunch options for today:</p>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Lunch Options</legend>
+                <label for="main-course">Main Course:</label>
+                <select name="main-course" id="main-course">
+                    <option value="chicken">Grilled Chicken Sandwich</option>
+                    <option value="beef">Beef and Cheese Wrap</option>
+                    <option value="vegetarian">Vegetarian Salad</option>
+                </select>
+                <br>
+                <label for="side-dish">Side Dish:</label>
+                <select name="side-dish" id="side-dish">
+                    <option value="fries">French Fries</option>
+                    <option value="chips">Potato Chips</option>
+                    <option value="fruit">Fresh Fruit Salad</option>
+                </select>
+                <br>
+                <label for="drink">Drink:</label>
+                <select name="drink" id="drink">
+                    <option value="soda">Soda</option>
+                    <option value="water">Bottled Water</option>
+                    <option value="juice">Fruit Juice</option>
+                </select>
+                <br>
+                <label for="special-requests">Special Requests:</label>
+                <input type="text" name="special-requests" id="special-requests">
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 Lunch Ordering System</p>
+    </footer>
+</body>
+</html>
